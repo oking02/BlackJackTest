@@ -1,0 +1,124 @@
+
+html {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.welcome-header__beginbtn {
+
+  background: lightskyblue;
+  color: white;
+  outline: none;
+  font-size: 2rem;
+  border: none;
+  width: 25rem;
+  height: 10rem;
+}
+
+.welcome-header__beginbtn:hover {
+  border: 5px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.reset-btn {
+  color: red;
+  cursor: pointer;
+}
+
+.players {
+  display: flex;
+
+}
+
+.player {
+  margin: 2rem;
+  padding: 1rem;
+  border: 5px solid black;
+  min-width: 20rem;
+}
+
+.player__header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.player__cards {
+
+}
+
+.player__cards__score {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.player__cards__cards {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem .5rem;
+  border-radius: 2px;
+  margin-right: 0.25rem;
+  font-size: 0.75rem;
+  width: 2.5rem;
+  background: beige;
+  height: 4rem;
+  border: 2px solid  black;
+}
+
+
+.player__actions {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.player__actions__button {
+  margin-right: 1rem;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  width: 5rem;
+}
+
+.player__actions__button--green {
+  background: green;
+  color: white;
+}
+
+.player__actions__button--grey {
+  background: cadetblue;
+  color: white;
+}
+
+.player__actions__button:hover {
+  cursor: pointer;
+}
+
